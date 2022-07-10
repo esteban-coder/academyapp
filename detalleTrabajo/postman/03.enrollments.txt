@@ -1,0 +1,158 @@
+GET
+http://localhost:8080/enrollments
+
+POST
+http://localhost:8080/enrollments
+
+{
+	"enrollmentDate": "2022-07-09T22:58:50.916675",
+	"student": {
+		"idStudent" : 1
+	},
+	"enabled" : true,
+	"details":  [
+					{
+						"course": {
+							"idCourse" : 1
+						},
+						"numClassroom": "G55"
+					},
+					{
+						"course": {
+							"idCourse" : 2
+						},
+						"numClassroom": "P43"
+					},
+					{
+						"course": {
+							"idCourse" : 4
+						},
+						"numClassroom": "N89"
+					}
+				]
+}
+
+{
+	"enrollmentDate": "2022-07-09T22:58:50.916675",
+	"student": {
+		"idStudent" : 2
+	},
+	"enabled" : true,
+	"details":  [
+					{
+						"course": {
+							"idCourse" : 1
+						},
+						"numClassroom": "G55"
+					},
+					{
+						"course": {
+							"idCourse" : 2
+						},
+						"numClassroom": "P43"
+					},
+					{
+						"course": {
+							"idCourse" : 3
+						},
+						"numClassroom": "B21"
+					}
+				]
+}
+
+{
+	"enrollmentDate": "2022-07-09T22:58:50.916675",
+	"student": {
+		"idStudent" : 3
+	},
+	"enabled" : true,
+	"details":  [
+					{
+						"course": {
+							"idCourse" : 2
+						},
+						"numClassroom": "R44"
+					},
+					{
+						"course": {
+							"idCourse" : 3
+						},
+						"numClassroom": "T88"
+					},
+					{
+						"course": {
+							"idCourse" : 4
+						},
+						"numClassroom": "A66"
+					}
+				]
+}
+
+{
+	"enrollmentDate": "2022-07-09T22:58:50.916675",
+	"student": {
+		"idStudent" : 4
+	},
+	"enabled" : true,
+	"details":  [
+					{
+						"course": {
+							"idCourse" : 3
+						},
+						"numClassroom": "R33"
+					},
+					{
+						"course": {
+							"idCourse" : 4
+						},
+						"numClassroom": "T77"
+					},
+					{
+						"course": {
+							"idCourse" : 5
+						},
+						"numClassroom": "A89"
+					}
+				]
+}
+
+{
+	"enrollmentDate": "2022-07-09T22:58:50.916675",
+	"student": {
+		"idStudent" : 4
+	},
+	"enabled" : true,
+	"details":  [
+					{
+						"course": {
+							"idCourse" : 1
+						},
+						"numClassroom": "R33"
+					}
+				]
+}
+
+{
+	"enrollmentDate": "2022-07-09T22:58:50.916675",
+	"student": {
+		"idStudent" : 5
+	},
+	"enabled" : true,
+	"details":  [
+					{
+						"course": {
+							"idCourse" : 3
+						},
+						"numClassroom": "R12"
+					},
+					{
+						"course": {
+							"idCourse" : 5
+						},
+						"numClassroom": "T11"
+					}
+				]
+}
+
+GET
+http://localhost:8080/enrollments

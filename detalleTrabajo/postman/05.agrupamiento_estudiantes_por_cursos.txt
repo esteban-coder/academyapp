@@ -1,0 +1,32 @@
+GET
+http://localhost:8080/enrollments/grouping
+
+Respuesta:
+
+{
+    "Metodos Numericos": [
+        "Pedro Quispe",
+        "Juan Perez",
+        "Luis Suarez"
+    ],
+    "Algebra Lineal": [
+        "Pedro Quispe",
+        "Pablo Marmol",
+        "Juan Perez"
+    ],
+    "Geometria Descriptiva": [
+        "Pedro Quispe",
+        "Pablo Marmol",
+        "Luis Suarez"
+    ],
+    "Macroeconomia": [
+        "Luis Suarez",
+        "Leo Messi"
+    ],
+    "Razonamiento Matematico": [
+        "Pablo Marmol",
+        "Juan Perez",
+        "Luis Suarez",
+        "Leo Messi"
+    ]
+}

@@ -1,0 +1,63 @@
+GET
+http://localhost:8080/courses
+
+GET
+http://localhost:8080/courses/1
+
+POST
+http://localhost:8080/courses
+
+{
+    "name": "Geometria Descriptiva",
+    "acronym": "GEODESC",
+    "enabled" : true
+}
+
+{
+    "name": "Algebra Lineal",
+    "acronym": "ALGLIN",
+    "enabled" : true
+}
+
+{
+    "name": "Razonamiento Matematico",
+    "acronym": "RAZMAT",
+    "enabled" : true
+}
+
+{
+    "name": "Metodos Numericos",
+    "acronym": "METNUM",
+    "enabled" : true
+}
+
+{
+    "name": "Macroeconomia",
+    "acronym": "MACECO",
+    "enabled" : true
+}
+
+{
+    "name": "Literatura",
+    "acronym": "LITER",
+    "enabled" : true
+}
+
+PUT
+http://localhost:8080/courses
+
+{
+    "idCourse" : "6",
+    "name": "Literatura",
+    "acronym": "LIT",
+    "enabled" : false
+}
+
+GET
+http://localhost:8080/courses/6
+
+DELETE
+http://localhost:8080/courses/6
+
+GET
+http://localhost:8080/courses

@@ -1,0 +1,70 @@
+GET
+http://localhost:8080/students
+
+GET
+http://localhost:8080/students/1
+
+POST
+http://localhost:8080/students
+
+{
+    "firstName":"Pedro",
+    "lastName" : "Quispe",
+    "dni": "66655544",
+    "age" : 31
+}
+
+{
+    "firstName":"Pablo",
+    "lastName" : "Marmol",
+    "dni": "99955544",
+    "age" : 17
+}
+
+{
+    "firstName":"Juan",
+    "lastName" : "Perez",
+    "dni": "66995544",
+    "age" : 26
+}
+
+{
+    "firstName":"Luis",
+    "lastName" : "Suarez",
+    "dni": "66995777",
+    "age" : 52
+}
+
+{
+    "firstName":"Leo",
+    "lastName" : "Messi",
+    "dni": "11995722",
+    "age" : 33
+}
+
+{
+    "firstName":"Paolo",
+    "lastName" : "Guerrero",
+    "dni": "33395722",
+    "age" : 39
+}
+
+PUT
+http://localhost:8080/courses
+
+{
+    "idStudent": 6,
+    "firstName":"Paolo",
+    "lastName" : "Farfan",
+    "dni": "44495722",
+    "age" : 19
+}
+
+GET
+http://localhost:8080/courses/6
+
+DELETE
+http://localhost:8080/courses/6
+
+GET
+http://localhost:8080/courses
